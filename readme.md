@@ -1,6 +1,6 @@
 
 # Expense Sharing API
-
+This is an expense sharing API made in Python Flask<br>
 This API provides essential features for creating and managing shared expenses. It supports user registration, logging in, and tracking expenses among participants.
 
 ## Key Features
