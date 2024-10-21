@@ -62,6 +62,10 @@ On Linux/Mac:
 export FLASK_APP=app.py
 ```
 
+#### Running the app:
+```bash
+flask run
+```
 
 ### Step 5: Access the Application
 - Open your browser and go to:  
