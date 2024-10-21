@@ -3,7 +3,77 @@
 This is an expense sharing API made in Python Flask<br>
 This API provides essential features for creating and managing shared expenses. It supports user registration, logging in, and tracking expenses among participants.
 
-## Key Features
+#### Postman API documentation link
+
+[Postman API documentation](https://documenter.getpostman.com/view/39139211/2sAXxY3881)
+
+
+---
+
+
+## Prerequisites
+
+- **Python 3.10** installed ([Download Python](https://www.python.org/downloads/))
+- **pip** (comes pre-installed with Python 3.x)
+
+---
+
+## How to Run the Flask API
+
+### Step 1: Clone the Repository
+```bash
+git clone <https://github.com/Anshu-K-Singh/expense_sharing-API->
+cd <cd expense_sharing-API->
+```
+
+### Step 2: Create and Activate a Virtual Environment (Optional but Recommended)
+```bash
+# Create a virtual environment named 'venv'
+python -m venv venv
+
+# Activate the virtual environment:
+# On Windows:
+.env\Scriptsctivate
+
+# On Linux/Mac:
+source venv/bin/activate
+```
+
+### Step 3: Install Dependencies
+Ensure you have a `requirements.txt` file in the project directory. To install the required dependencies, run:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Run the Flask Application
+
+###### Set the FLASK_APP environment variable:
+
+On Windows:
+
+```bash
+set FLASK_APP=app.py
+```
+On Linux/Mac:
+
+```bash
+
+export FLASK_APP=app.py
+```
+
+
+### Step 5: Access the Application
+- Open your browser and go to:  
+  [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+---
+
+
+
+
+
+## Key Features of the API
 - User Registration and Login
 - Expense creation and sharing among participants
 - Retrieval of user-specific and general expenses
